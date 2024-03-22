@@ -1,0 +1,14 @@
+type Query {
+    etudiantList : [Etudiant]
+    nbrEtudiant : Float
+}
+
+type Etudiant {
+    id : Int,
+
+    prenom : String,
+
+    adresse : String,
+
+    telephone : String
+}
